@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["static/facebook-icon.png","88f3a7fb48afe5648716f8fa0bcd1c84"],["static/hero-bg.jpg","6d34fee678ba174bbee3fcadb4d688a2"],["static/og-image.jpg","21541c6f07e7afe29f7f9ca45bfc377a"]];
+var precacheConfig = [["_next/367e4de4a8056e6708567f728c8b1044/app.js","367e4de4a8056e6708567f728c8b1044"],["_next/deb53691-26d0-40cb-8d95-6c46565d5adb/page/_error/index.js","88b806e593a0a6a2343e264ca3f13308"],["_next/deb53691-26d0-40cb-8d95-6c46565d5adb/page/index.js","bf99e66f8bf132845fe885e6d432d491"],["index.html","6a4892184054ffa7c51317bd67bdb29e"],["static/facebook-icon.png","88f3a7fb48afe5648716f8fa0bcd1c84"],["static/hero-bg.jpg","6d34fee678ba174bbee3fcadb4d688a2"],["static/og-image.jpg","21541c6f07e7afe29f7f9ca45bfc377a"],["static/service-worker-registration.js","8e689f2e3e168a432867cd50409883b5"],["static/service-worker.js","be769591c66019bc5dac925c9a880b41"],["static/thaisansneue/generator_config.txt","452fd41b4f590626dc0a0e589dd646be"],["static/thaisansneue/stylesheet.css","a50e8d7c58ee465c66261b1573450e5a"],["static/thaisansneue/thaisansneue-bold-webfont.woff","9f18048e8de3ef0807d82f07d41dbea5"],["static/thaisansneue/thaisansneue-bold-webfont.woff2","2fc8e5099900eca54d0fb0a845bf4465"],["static/thaisansneue/thaisansneue-regular-webfont.woff","7af8c505ded33caf00349b1f185b77a0"],["static/thaisansneue/thaisansneue-regular-webfont.woff2","ad93882db673acb455e8b91c1711f1d5"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
@@ -285,7 +285,7 @@ self.addEventListener('fetch', function(event) {
 
 // Runtime cache configuration, using the sw-toolbox library.
 
-toolbox.router.get(/(.*)/, toolbox.networkFirst, {});
+toolbox.router.get(/(.*)/, toolbox.fastest, {});
 
 
 
