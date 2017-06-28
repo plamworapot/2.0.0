@@ -22,7 +22,7 @@ export default class MyDocument extends Document {
     return (
       <html lang='th'>
         <Head>
-          <title>React Bangkok 2.0.0</title>
+          <title>React Bangkok 2.0.0 TEST</title>
           <meta
             name='viewport'
             content='width=device-width, initial-scale=1.0'
