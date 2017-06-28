@@ -10,6 +10,8 @@ import LogoBackground from '../components/LogoBackground'
 import MobileNavigation from '../components/MobileNavigation'
 import ScheduleSection from '../components/ScheduleSection'
 
+// ADD COMMENT
+
 const navs = [
   { href: '#about', label: 'About' },
   { href: '#tickets', label: 'Tickets' },
