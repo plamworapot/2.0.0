@@ -16,3 +16,4 @@ app.get('/', function (req, res) {
 app.listen(port, function () {
   console.log('Now listening on port: ' + this.address().port)
 })
+console.log('test')
